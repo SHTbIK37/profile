@@ -1,12 +1,53 @@
 
-.row {
-   display: flex; 
-   flex-wrap: wrap;
+body{
+    background-color: lightgreen;
+}
+.main{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    height: 90vh;
+}
+.head{
+    text-decoration: none;
+    margin: 30px;
+}
+.header{
+    margin-top: 15px;
+    text-align: right;
+    display: block;
+}
+#border{
+    padding: 10px;
+    border: 1px lightgreen solid;
+    border-radius: 10px;
+}
+.head:hover{
+    text-decoration: underline;
+}
+.about{
+    margin-left: 5%;
+    margin-top: 5%;
+    display: inline-block;
+    width: 50%;
+    
+}
+.about, .head{
+    font-family: Arial;
+    font-size: 20px;
+}
+.about #border{
+    text-decoration: none;
+    background-color: lightgreen;
+}
+.about #border:hover{
+    text-decoration: none;
+    background-color: white;
 }
 
-.col {
-    flex: 0 0 100%;
-}
 
 @media only screen and (min-width: 768px) {
     .col {

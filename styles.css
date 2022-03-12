@@ -32,6 +32,7 @@ body{
     margin-left: 5%;
     margin-top: 5%;
     display: flex;
+    height: 76vh;
 
 }
 .about, .head{
@@ -47,8 +48,13 @@ body{
     background-color: white;
 }
 .text{
-    
+    display: flex;
+    flex-direction: column;
     width: 70%;
+}
+.undertext{
+    width: 8%;
+    text-align: center;
 }
 .image{
     
@@ -84,6 +90,29 @@ footer{
     width: 50px;
     height: 50px;
     margin: 5px;
+}
+.workshtml, .worksjs{
+    display: flex;
+    
+}
+.skills{
+    text-align: center;
+    
+    width: 55%;
+    font-family: Arial;
+    font-size: 24px;
+}
+#work1{
+    width: 100%;
+    border-radius: 25px;
+    
+}
+#workjs{
+    width: 100%;
+    border-radius: 25px;
+}
+.workimg{
+    width: 45%; 
 }
 
 

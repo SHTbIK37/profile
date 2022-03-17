@@ -1,0 +1,65 @@
+@font-face {
+  font-family: Inter;
+  src: url(/font_family/Inter-VariableFont_slnt\,wght.ttf);
+}
+body {
+  background-color: black;
+  margin: 0;
+  font-family: Inter;
+}
+.aside {
+  margin: 0 auto;
+  background-color: white;
+  width: 1438px;
+  display: block;
+  border: 1px solid white;
+}
+header {
+  font-size: 18px;
+}
+nav a {
+  color: #6b7280;
+
+  text-decoration: none;
+}
+#serv {
+  margin-right: 77px;
+}
+#works {
+  margin-right: 77px;
+}
+#blog {
+  margin-right: 75px;
+}
+#hire {
+  top: -13px;
+  position: relative;
+  color: #3730a3;
+  padding: 13px 32px 13px 32px;
+  border-radius: 6px;
+  border: 1px solid #3730a3;
+}
+nav {
+  text-align: right;
+  margin-top: 118px;
+  margin-right: 128px;
+}
+.about {
+  margin-top: 220px;
+  margin-left: 130px;
+}
+#logo {
+  color: #1f2937;
+  position: relative;
+  left: -112px;
+  top: -30px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: 72px;
+  font-size: 72px;
+}
+.about p {
+  color: #4338ca;
+  margin-left: 112px;
+  font-size: 20px;
+}

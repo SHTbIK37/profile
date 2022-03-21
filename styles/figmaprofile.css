@@ -1,16 +1,14 @@
-@font-face {
-  font-family: Inter;
-  src: url(/font_family/Inter-VariableFont_slnt\,wght.ttf);
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap");
+
 body {
   background-color: black;
   margin: 0;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
 }
 .aside {
   margin: 0 auto;
   background-color: white;
-  width: 1438px;
+  width: 80%;
   display: block;
   border: 1px solid white;
 }
@@ -32,15 +30,23 @@ nav a {
   margin-right: 75px;
 }
 #hire {
-  top: -13px;
   position: relative;
   color: #3730a3;
   padding: 13px 32px 13px 32px;
   border-radius: 6px;
   border: 1px solid #3730a3;
+  transition: all 0.2s;
 }
+
+#hire:hover {
+  background-color: #3730a3;
+  color: white;
+}
+
 nav {
-  text-align: right;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
   margin-top: 118px;
   margin-right: 128px;
 }
@@ -54,7 +60,7 @@ nav {
   left: -112px;
   top: -30px;
   font-style: normal;
-  font-weight: 1000;
+  font-weight: 900;
   line-height: 72px;
   font-size: 72px;
 }

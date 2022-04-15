@@ -12,6 +12,14 @@ body {
   display: block;
   border: 1px solid white;
 }
+#profile {
+  display: flex;
+  margin-top: 200px;
+  justify-content: space-between;
+}
+#profile img {
+  margin-right: 100px;
+}
 header {
   font-size: 18px;
 }
@@ -42,10 +50,10 @@ nav a {
   background-color: #3730a3;
   color: white;
 }
-#line{
+#line {
   display: block;
 }
-#line hr{
+#line hr {
   display: inline-block;
   width: 100px;
 }
@@ -57,13 +65,11 @@ nav {
   margin-right: 128px;
 }
 .about {
-  margin-top: 220px;
   margin-left: 130px;
 }
 .about p {
   color: black;
   font-size: 20px;
-  
 }
 #logo {
   color: #1f2937;
@@ -73,75 +79,73 @@ nav {
   line-height: 72px;
   font-size: 72px;
 }
-#name{
+#name {
   color: #3730a3;
   display: inline-block;
 }
-#title{
+#title {
   margin-top: 150px;
   font-size: 48px;
   text-align: center;
   margin-bottom: 200px;
 }
-#title span{
+#title span {
   color: #3730a3;
 }
-.specification{
+.specification {
   display: flex;
   margin-left: 12%;
   flex-direction: row;
 }
-.specification img{
+.specification img {
   margin-right: 2%;
 }
-.skills{
+.skills {
   display: flex;
   margin-right: 5%;
   flex-wrap: wrap;
-  
 }
-.skills div{
+.skills div {
   font-size: 12px;
   width: 50%;
-  max-height:min-content;
+  max-height: min-content;
 }
-.trusted{
+.trusted {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 100px;
   margin-bottom: 100px;
-  background-color: #FEF2F2;
-  color: #9CA3AF;
+  background-color: #fef2f2;
+  color: #9ca3af;
   font-size: 20px;
   height: 300px;
 }
-.imgproject p{
+.imgproject p {
   margin-bottom: 100px;
   text-align: center;
   font-size: 48px;
   font-weight: 600;
 }
-#photos{
+#photos {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-#row{
+#row {
   margin-bottom: 30px;
   display: flex;
   flex-direction: row;
 }
-#column{
+#column {
   margin-right: 30px;
   justify-content: space-between;
   display: flex;
   flex-direction: column;
 }
-#projectlink{
-
+#projectlink {
   height: 10%;
   width: 475px;
   bottom: 30px;
@@ -149,24 +153,23 @@ nav {
   position: absolute;
   background-color: white;
 }
-.imgproject #projectlink p{
+.imgproject #projectlink p {
   font-weight: 100;
   font-size: 18px;
   text-align: start;
   margin-left: 30px;
   margin-top: 25px;
 }
-.imgproject #projectlink p span{
+.imgproject #projectlink p span {
   font-size: 14px;
-  color: #9CA3AF;
+  color: #9ca3af;
 }
-#projectlink img{
+#projectlink img {
   position: absolute;
   display: inline-block;
   bottom: 30px;
   right: 30px;
-
 }
-#imgunder{
+#imgunder {
   position: relative;
 }

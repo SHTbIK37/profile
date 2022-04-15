@@ -42,7 +42,13 @@ nav a {
   background-color: #3730a3;
   color: white;
 }
-
+#line{
+  display: block;
+}
+#line hr{
+  display: inline-block;
+  width: 100px;
+}
 nav {
   display: flex;
   align-items: flex-end;
@@ -67,12 +73,9 @@ nav {
   line-height: 72px;
   font-size: 72px;
 }
-
-hr{
-  border: 1px solid red;
-}
 #name{
   color: #3730a3;
+  display: inline-block;
 }
 #title{
   margin-top: 150px;
@@ -101,4 +104,39 @@ hr{
   font-size: 12px;
   width: 50%;
   max-height:min-content;
+}
+.trusted{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #FEF2F2;
+  color: #9CA3AF;
+  font-size: 20px;
+  height: 300px;
+}
+.imgproject p{
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+}
+#photos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#row{
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
+#column{
+  margin-right: 30px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
 }

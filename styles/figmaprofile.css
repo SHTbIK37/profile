@@ -140,3 +140,33 @@ nav {
   display: flex;
   flex-direction: column;
 }
+#projectlink{
+
+  height: 10%;
+  width: 475px;
+  bottom: 30px;
+  left: 30px;
+  position: absolute;
+  background-color: white;
+}
+.imgproject #projectlink p{
+  font-weight: 100;
+  font-size: 18px;
+  text-align: start;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+.imgproject #projectlink p span{
+  font-size: 14px;
+  color: #9CA3AF;
+}
+#projectlink img{
+  position: absolute;
+  display: inline-block;
+  bottom: 30px;
+  right: 30px;
+
+}
+#imgunder{
+  position: relative;
+}

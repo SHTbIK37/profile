@@ -188,3 +188,53 @@ nav {
   font-size: 18px;
   color: #9ca3af;
 }
+#careers p {
+  text-align: center;
+  font-size: 48px;
+}
+#careers div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 75px;
+}
+#company,
+#position,
+#year {
+  display: inline-block;
+  flex-direction: column;
+}
+#company p,
+#position p,
+#year p {
+  margin: 30px;
+  text-align: left;
+  font-size: 16px;
+  color: #6b7280;
+}
+#company p span,
+#position p span,
+#year p span {
+  font-weight: 600;
+}
+footer {
+  margin-top: 100px;
+  background-color: #fef2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+footer span {
+  text-align: center;
+  font-size: 18px;
+  color: #9ca3af;
+  margin-bottom: 50px;
+}
+footer img {
+  margin-bottom: 100px;
+}

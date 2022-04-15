@@ -68,8 +68,8 @@ nav {
   margin-left: 130px;
 }
 .about p {
-  color: black;
-  font-size: 20px;
+  color: #6b7280;
+  font-size: 18px;
 }
 #logo {
   color: #1f2937;
@@ -172,4 +172,19 @@ nav {
 }
 #imgunder {
   position: relative;
+}
+#planning {
+  margin: 0 160px;
+  margin-top: 150px;
+  justify-content: space-between;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+#planning p {
+  font-size: 30px;
+}
+#planning p span {
+  font-size: 18px;
+  color: #9ca3af;
 }

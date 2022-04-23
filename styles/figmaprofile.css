@@ -239,9 +239,75 @@ footer span {
 footer img {
   margin-bottom: 100px;
 }
+@media only screen and (min-width: 769px) and (max-width: 1280px) {
+  body {
+    margin: 0 2%;
+  }
+  nav {
+    margin: 0;
+    margin-top: 5%;
+  }
+  #profile {
+    margin: 0;
+    margin-top: 10%;
+  }
+  .about {
+    margin: 0;
+  }
+  #logo {
+    line-height: 60px;
+    margin: 0;
+    font-size: 60px;
+  }
+  #name {
+    margin: 0;
+    margin-bottom: 3%;
+  }
+  #profile img {
+    margin: 0;
+    max-width: 100%;
+  }
+  #title {
+    margin: 0 2%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 35px;
+  }
+  .specification {
+    margin: 0;
+  }
+  .trusted {
+    padding: 5%;
+    margin: 0;
+    height: 150px;
+  }
+  .trusted img {
+    max-width: 100%;
+  }
+  #photos img {
+    max-width: 100%;
+  }
+  #projectlink {
+    max-width: 85%;
+  }
+
+  .imgproject p {
+    margin-bottom: 0;
+  }
+  .imgproject #projectlink p {
+    margin-top: 10px;
+  }
+  #planning {
+    margin: 0 5%;
+    margin-top: 5%;
+  }
+  #careers div {
+    margin: 0 5%;
+  }
+}
 @media only screen and (min-width: 551px) and (max-width: 768px) {
   body {
-    margin-left: 2%;
+    margin: 0 2%;
     background-color: white;
   }
   header {
@@ -264,6 +330,7 @@ footer img {
     margin-top: 2%;
   }
   #profile img {
+    display: block;
     margin: 0 auto;
     width: 100%;
     max-width: max-content;
@@ -369,9 +436,9 @@ footer img {
     width: 100%;
   }
 }
-@media only screen and (min-width: 374px) and (max-width: 550px) {
+@media only screen and (min-width: 250px) and (max-width: 550px) {
   body {
-    margin-left: 2%;
+    margin: 0 2%;
     background-color: white;
   }
   header {
@@ -394,8 +461,10 @@ footer img {
     margin-top: 2%;
   }
   #profile img {
+    display: block;
+    margin: 0 auto;
     width: 100%;
-    max-width: max-content;
+    max-width: 350px;
   }
   .about {
     margin-left: 1%;

@@ -4,88 +4,207 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profile</title>
-    <link rel="stylesheet" href="./styles.css" />
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="/styles/figmaprofile.css" />
+    <title>Document</title>
   </head>
   <body>
-    <div class="main">
-      <div class="header">
-        <button class="head" id="works">Works</button>
-        <a href="https://vk.com/shtbik2" class="head">Blog</a>
-        <a
-          href="https://hh.ru/resume/f380b1d6ff0817930b0039ed1f744569397455"
-          id="border"
-          class="head"
-          >Hire me</a
-        >
-      </div>
-      <div class="about">
-        <div class="text">
-          <p>Ivan Shtykov</p>
-          <h1>Creative thinker</h1>
-          <p>
-            Hi, I’m Ivan. I’m HTML, CSS, JS developer. If you are looking for
-            Layout designer <br />
-            Let’s shake hands with me.
+    <header>
+      <nav>
+        <a id="serv" href="#">Services</a>
+        <a id="works" href="#">Works</a>
+        <a id="blog" href="#">Blog</a>
+        <a id="hire" href="#specification"><b> Hire me</b></a>
+      </nav>
+    </header>
+    <main>
+      <div id="profile">
+        <div class="about">
+          <div id="line">
+            <hr />
+            <!-- TODO: Добавить стрелку через HR и позиционирование для родителя через flex -->
+            <p id="name">Jessica Strosin</p>
+          </div>
+          <p id="logo">
+            Creative thinker <br />
+            Minimalism lover
           </p>
-          <a
-            class="undertext"
-            href="https://hh.ru/resume/f380b1d6ff0817930b0039ed1f744569397455"
-            id="border"
-            >Hire me</a
-          >
+          <p>
+            Hi, I’m Jessica. I’m UI/UX Designer. If you are looking for Designer
+            <br />
+            to build your brands and grow your business Let’s shake hands
+            <br />
+            with me.
+          </p>
         </div>
-        <hr />
-        <div class="image"><img id="myimage" src="my.jpg" alt="" /></div>
+        <div class="profimg"><img src="/assets/facef.png" alt="" /></div>
       </div>
-      <div class="workshtml">
-        <div class="workimg">
-          <img src="work1.jpg" alt="work1" id="work1" />
-        </div>
+
+      <p id="title">
+        <b>
+          From beginning ideas to individual integrity, <br />
+          rich identity from the line
+          <span>
+            on the paper to <br />
+            final projects
+          </span>
+        </b>
+      </p>
+      <div class="specification" id="specification">
+        <img src="/assets/image 11.png" alt="" />
         <div class="skills">
-          <div class="aboutlayout">
-            <h3>Layout designer</h3>
+          <div>
+            <p><b>Web design</b></p>
             <p>
-              I can write layouts from scratch <br />
-              Also write layouts with Figma <br />
-              The picture on the left demonstrates my layout skills
+              Provide our customers with optimized user-friendly
+              <br />
+              experience to increase the efficiency of digital <br />
+              products.
+            </p>
+          </div>
+          <div>
+            <p><b>Mobile design</b></p>
+            <p>
+              Mobile application development is a highlight that <br />
+              businesses are interested in at the moment and in the <br />
+              future.
+            </p>
+          </div>
+          <div>
+            <p><b>Branding</b></p>
+            <p>
+              Understanding the business and their target <br />
+              customers, I’m the bridges to bring the brand closer to <br />
+              their clients.
+            </p>
+          </div>
+          <div>
+            <p><b>3D Modeling</b></p>
+            <p>
+              Help you translate your existing design or concept into <br />
+              CAD or to work with you to develop the ideal design. <br />
+              3D Models great for modern digital art
+            </p>
+          </div>
+          <div>
+            <p><b>Photography</b></p>
+            <p>
+              While stock photography is a great option for sourcing <br />
+              high-quality photos, it’s important that you choose <br />
+              your photos thoughtfully.
+            </p>
+          </div>
+          <div>
+            <p><b>Video creating</b></p>
+            <p>
+              Create high-impact social videos with our easy video <br />
+              maker. Use custom video templates to find the right <br />
+              story for your business.
             </p>
           </div>
         </div>
       </div>
-
-      <div class="worksjs">
-        <div class="skills">
-          <div class="aboutlayout">
-            <h3>Java Script</h3>
-            <p>
-              I know JS at a basic level: <br />
-              arrays, loops, functions and can solve other simple tasks <br />
-              But I don't stop there and every day I learn new things and
-              improve my knowledge
-            </p>
-          </div>
-        </div>
-        <div class="workimg">
-          <img src="workjs.jpg" alt="work1" id="workjs" />
+      <div class="trusted">
+        <div>
+          <p>Trusted by</p>
+          <img src="/assets/trusted.png" alt="" />
         </div>
       </div>
-
-      <footer>
-        <p>Contact with me</p>
-        <div class="share">
-          <a href="https://vk.com/shtbik2"><img src="Vk-icon.png" alt="" /></a>
-          <a href="https://hh.ru/resume/f380b1d6ff0817930b0039ed1f744569397455"
-            ><img src="headhunter.png" alt=""
-          /></a>
-          <a href="https://github.com/SHTbIK37"
-            ><img src="Github-icon.png" alt=""
-          /></a>
+      <div class="imgproject">
+        <p>
+          It’s great to always give the customer <br />
+          the best feed.
+        </p>
+        <div id="photos">
+          <div id="row">
+            <div id="column">
+              <img src="/assets/vwt1.png" alt="" />
+              <img src="/assets/street.png" alt="" />
+            </div>
+            <div id="imgunder">
+              <img src="/assets/home.png" alt="" />
+              <div id="projectlink">
+                <p>Project title here <br /><span> Photograph</span></p>
+                <div id="prlinkimg">
+                  <img src="/assets/arrow-right.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="/assets/trees.png" alt="" />
         </div>
-      </footer>
-    </div>
-
-    <!-- <script src="./script.js"></script> -->
+      </div>
+      <div id="planning">
+        <div>
+          <img src="/assets/busines.png" alt="" />
+          <p>
+            Business planning <br />
+            <span
+              >Excepteur sint occaecat cupidatat non <br />
+              proident, sunt in culpa qui officia deserunt <br />
+              mollit anim id est laborum.</span
+            >
+          </p>
+        </div>
+        <div>
+          <img src="/assets/dollar.png" alt="" />
+          <p>
+            Financial planning <br /><span
+              >Excepteur sint occaecat cupidatat non <br />
+              proident, sunt in culpa qui officia deserunt <br />
+              mollit anim id est laborum.</span
+            >
+          </p>
+        </div>
+        <div>
+          <img src="/assets/search.png" alt="" />
+          <p>
+            Market Analytics <br /><span
+              >Excepteur sint occaecat cupidatat non <br />
+              proident, sunt in culpa qui officia deserunt <br />
+              mollit anim id est laborum.</span
+            >
+          </p>
+        </div>
+      </div>
+      <div id="careers">
+        <p>Careers</p>
+        <div>
+          <div id="company">
+            <p>COMPANY</p>
+            <p><span>Massa Fames</span> / New York</p>
+            <p><span>Massa Fames</span> / New York</p>
+            <p><span>Massa Fames</span> / New York</p>
+            <p><span>Massa Fames</span> / New York</p>
+            <p><span>Massa Fames</span> / New York</p>
+          </div>
+          <div id="position">
+            <p>POSITION</p>
+            <p>Junior Front-End Developer</p>
+            <p>Junior Front-End Developer</p>
+            <p>Junior Front-End Developer</p>
+            <p>Junior Front-End Developer</p>
+            <p>Junior Front-End Developer</p>
+          </div>
+          <div id="year">
+            <p>YEAR</p>
+            <p>2016</p>
+            <p>2016</p>
+            <p>2016</p>
+            <p>2016</p>
+            <p>2016</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Contact with me</p>
+      <span>
+        I’m not currently taking on new client work but feel free to contact me
+        for any <br />
+        other inquiries.
+      </span>
+      <img src="/assets/footer_img.png" alt="" />
+    </footer>
+    <!-- <script src="./js/script.js"></script> -->
   </body>
 </html>

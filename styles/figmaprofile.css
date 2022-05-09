@@ -52,7 +52,9 @@ nav a {
   color: white;
 }
 #line {
-  display: block;
+  align-items: center;
+  display: flex;
+  width: fit-content;
 }
 #line hr {
   display: inline-block;
@@ -147,6 +149,7 @@ nav {
   flex-direction: column;
 }
 #projectlink {
+  display: flex;
   height: 10%;
   width: 475px;
   bottom: 30px;
@@ -166,12 +169,22 @@ nav {
   color: #9ca3af;
 }
 #projectlink img {
+  display: flex;
+  align-items: center;
   position: absolute;
   display: inline-block;
-  bottom: 30px;
   right: 30px;
 }
+#prlinkimg {
+  display: flex;
+  align-items: center;
+}
+#prlinkimg a {
+  display: flex;
+  align-items: center;
+}
 #imgunder {
+  display: flex;
   position: relative;
 }
 #planning {
@@ -239,6 +252,11 @@ footer span {
 footer img {
   margin-bottom: 100px;
 }
+#contacts {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+}
 @media only screen and (min-width: 769px) and (max-width: 1280px) {
   body {
     margin: 0 2%;
@@ -253,6 +271,7 @@ footer img {
   }
   .about {
     margin: 0;
+    margin-right: 2%;
   }
   #logo {
     line-height: 60px;
@@ -261,7 +280,6 @@ footer img {
   }
   #name {
     margin: 0;
-    margin-bottom: 3%;
   }
   #profile img {
     margin: 0;
@@ -275,6 +293,7 @@ footer img {
   }
   .specification {
     margin: 0;
+    margin-bottom: 2%;
   }
   .trusted {
     padding: 5%;
@@ -289,6 +308,14 @@ footer img {
   }
   #projectlink {
     max-width: 85%;
+  }
+  #projectlink {
+    display: flex;
+    align-items: center;
+  }
+  #prlinkimg {
+    display: flex;
+    align-items: center;
   }
 
   .imgproject p {
@@ -385,10 +412,17 @@ footer img {
     margin-bottom: 5%;
   }
   .imgproject img {
-    width: 100%;
+    max-width: 100%;
   }
   #projectlink {
-    display: none;
+    max-width: 80%;
+    height: auto;
+  }
+  .imgproject #projectlink p {
+    margin: 3%;
+  }
+  #projectlink img {
+    right: 0;
   }
   #row {
     margin-bottom: 2%;
@@ -442,6 +476,7 @@ footer img {
     background-color: white;
   }
   header {
+    font-size: 16px;
     margin: 0;
   }
   nav {
@@ -514,10 +549,24 @@ footer img {
     margin-bottom: 5%;
   }
   .imgproject img {
-    width: 100%;
+    max-width: 100%;
   }
   #projectlink {
     display: none;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    left: 5%;
+  }
+  #projectlink img {
+    display: none;
+  }
+  .imgproject #projectlink p {
+    font-size: 10px;
+    margin: 0;
+  }
+  .imgproject #projectlink p span {
+    font-size: 8px;
   }
   #row {
     margin-bottom: 2%;

@@ -109,9 +109,14 @@ nav {
   flex-wrap: wrap;
 }
 .skills div {
-  font-size: 12px;
+  font-size: 14px;
   width: 50%;
   max-height: min-content;
+}
+.skills a {
+  text-decoration: none;
+  color: #3730a3;
+  font-weight: 900;
 }
 .trusted {
   display: flex;

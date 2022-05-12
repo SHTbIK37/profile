@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 body {
   background-color: white;
@@ -30,15 +30,16 @@ nav a {
   text-decoration: none;
 }
 #serv {
-  margin-right: 77px;
+  margin-right: 81px;
 }
 #works {
-  margin-right: 77px;
+  margin-right: 83px;
 }
 #blog {
-  margin-right: 75px;
+  margin-right: 79px;
 }
 #hire {
+  margin-right: -15px;
   position: relative;
   color: #3730a3;
   padding: 13px 32px 13px 32px;
@@ -56,9 +57,51 @@ nav a {
   display: flex;
   width: fit-content;
 }
+#line p {
+  font-size: 20px;
+  font-weight: 500;
+}
 #line hr {
+  margin-right: 10px;
+
   display: inline-block;
   width: 100px;
+}
+#logoLinks {
+  margin-top: 56px;
+}
+#logohire {
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #3730a3;
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  padding: 13px 32px 13px 32px;
+  border-radius: 6px;
+  border: 1px solid #3730a3;
+  transition: all 0.2s;
+}
+#logoReadMore {
+  font-size: 18px;
+  font-weight: 400;
+  background-color: white;
+  color: #3730a3;
+  text-decoration: none;
+  margin-right: -15px;
+  padding: 13px 32px 13px 32px;
+  border-radius: 6px;
+  border: 1px solid #3730a3;
+  transition: all 0.2s;
+}
+#underLogo {
+  margin-top: 35px;
+  max-width: 100%;
+}
+#smallText {
+  font-size: 12px;
+  margin-left: -1px;
+  margin-top: 19px;
 }
 nav {
   display: flex;
@@ -78,19 +121,26 @@ nav {
   color: #1f2937;
   position: relative;
   font-style: normal;
-  font-weight: 900;
   line-height: 72px;
   font-size: 72px;
+  margin-top: 22px;
+  font-weight: 700;
+}
+#logotext {
+  margin-top: -30px;
+  line-height: 27px;
 }
 #name {
   color: #3730a3;
   display: inline-block;
 }
 #title {
+  font-weight: 600;
+  line-height: 50px;
   margin-top: 150px;
   font-size: 48px;
   text-align: center;
-  margin-bottom: 200px;
+  margin-bottom: 147px;
 }
 #title span {
   color: #3730a3;
@@ -106,6 +156,8 @@ nav {
 .skills {
   display: flex;
   margin-right: 5%;
+  margin-top: 31px;
+
   flex-wrap: wrap;
 }
 .skills div {
@@ -114,10 +166,31 @@ nav {
   max-height: min-content;
 }
 .skills a {
+  font-size: 12px;
   text-decoration: none;
   color: #3730a3;
-  font-weight: 900;
+  font-weight: 500;
 }
+.skills div p {
+  font-size: 18px;
+  font-weight: 600;
+}
+.skills div span p {
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+#branding,
+#d3 {
+  margin-top: 10px;
+}
+#photography,
+#video {
+  margin-top: 12px;
+}
+
 .trusted {
   display: flex;
   flex-direction: column;
@@ -135,6 +208,7 @@ nav {
   text-align: center;
   font-size: 48px;
   font-weight: 600;
+  line-height: 52px;
 }
 #photos {
   display: flex;
@@ -163,7 +237,6 @@ nav {
   background-color: white;
 }
 .imgproject #projectlink p {
-  font-weight: 100;
   font-size: 18px;
   text-align: start;
   margin-left: 30px;
@@ -179,6 +252,10 @@ nav {
   position: absolute;
   display: inline-block;
   right: 30px;
+}
+#projectlink p {
+  line-height: 20px;
+  font-weight: 400;
 }
 #prlinkimg {
   display: flex;
@@ -247,6 +324,7 @@ footer p {
   text-align: center;
   font-size: 48px;
   margin-bottom: 20px;
+  font-weight: 500;
 }
 footer span {
   text-align: center;
@@ -259,8 +337,12 @@ footer img {
 }
 #contacts {
   display: flex;
+  height: 100px;
   width: 60%;
   justify-content: space-around;
+}
+#contacts a {
+  height: 35px;
 }
 @media only screen and (min-width: 769px) and (max-width: 1280px) {
   body {
@@ -282,6 +364,7 @@ footer img {
     line-height: 60px;
     margin: 0;
     font-size: 60px;
+    margin-bottom: 7%;
   }
   #name {
     margin: 0;
@@ -379,6 +462,7 @@ footer img {
     line-height: 20px;
     margin: 0%;
     font-size: 18px;
+    margin-bottom: 7%;
   }
   #title {
     margin: 3% 0;
@@ -506,6 +590,17 @@ footer img {
     width: 100%;
     max-width: 350px;
   }
+  #logoLinks {
+    display: flex;
+    flex-direction: column;
+  }
+  #logohire {
+    width: fit-content;
+    margin-bottom: 5%;
+  }
+  #logoReadMore {
+    width: fit-content;
+  }
   .about {
     margin-left: 1%;
   }
@@ -516,6 +611,7 @@ footer img {
     line-height: 20px;
     margin: 0%;
     font-size: 18px;
+    margin-bottom: 10%;
   }
   #title {
     margin: 3% 0;

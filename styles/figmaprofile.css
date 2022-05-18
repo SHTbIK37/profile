@@ -141,6 +141,7 @@ nav {
   font-size: 48px;
   text-align: center;
   margin-bottom: 147px;
+  margin-top: 192px;
 }
 #title span {
   color: #3730a3;
@@ -152,12 +153,13 @@ nav {
 }
 .specification img {
   margin-right: 2%;
+  margin-left: 133px;
 }
 .skills {
   display: flex;
-  margin-right: 5%;
+  margin-right: 292px;
   margin-top: 31px;
-
+  margin-left: 15px;
   flex-wrap: wrap;
 }
 .skills div {
@@ -196,15 +198,19 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 150px;
+  margin-bottom: 147px;
   background-color: #fef2f2;
   color: #9ca3af;
   font-size: 20px;
   height: 300px;
 }
 #trustedImg {
-  width: 80%;
+  width: 67%;
+}
+#trustedImg p {
+  margin-top: 0px;
+  margin-left: 51px;
 }
 #imgrow {
   display: flex;
@@ -221,7 +227,7 @@ nav {
   max-width: 100%;
 }
 .imgproject p {
-  margin-bottom: 100px;
+  margin-bottom: 147px;
   text-align: center;
   font-size: 48px;
   font-weight: 600;
@@ -246,10 +252,10 @@ nav {
 }
 #projectlink {
   display: flex;
-  height: 10%;
-  width: 475px;
-  bottom: 30px;
-  left: 30px;
+  height: 92px;
+  width: 495px;
+  bottom: 24px;
+  left: 19px;
   position: absolute;
   background-color: white;
 }
@@ -287,28 +293,42 @@ nav {
   position: relative;
 }
 #planning {
-  margin: 0 160px;
+  margin: 0 328px;
   margin-top: 150px;
   justify-content: space-between;
   text-align: center;
   display: flex;
   flex-direction: row;
+  font-weight: 600;
 }
 #planning p {
   font-size: 30px;
 }
 #planning p span {
+  display: block;
+  font-weight: 400;
+  margin-top: 24px;
   font-size: 18px;
   color: #9ca3af;
+  line-height: 26px;
+}
+#planning img {
+  margin-bottom: 5px;
+}
+#careers {
+  margin-top: 115px;
 }
 #careers p {
+  font-weight: 600;
   text-align: center;
   font-size: 48px;
 }
 #careers div {
   display: flex;
   justify-content: space-between;
-  margin: 0 75px;
+
+  margin-top: 58px;
+  margin-left: 152px;
 }
 #company,
 #position,
@@ -323,11 +343,18 @@ nav {
   text-align: left;
   font-size: 16px;
   color: #6b7280;
+  margin-bottom: 54px;
 }
 #company p span,
 #position p span,
 #year p span {
   font-weight: 600;
+}
+#position {
+  margin-right: -18px;
+}
+#year {
+  margin-right: 433px;
 }
 footer {
   margin-top: 100px;
@@ -342,12 +369,14 @@ footer p {
   font-size: 48px;
   margin-bottom: 20px;
   font-weight: 500;
+  margin-top: 104px;
 }
 footer span {
   text-align: center;
   font-size: 18px;
   color: #9ca3af;
   margin-bottom: 50px;
+  line-height: 24px;
 }
 footer img {
   margin-bottom: 100px;
@@ -357,6 +386,8 @@ footer img {
   height: 100px;
   width: 60%;
   justify-content: space-around;
+  margin-top: 53px;
+  margin-bottom: 45px;
 }
 #contacts a {
   height: 35px;
@@ -399,6 +430,9 @@ footer img {
   .specification {
     margin: 0;
     margin-bottom: 2%;
+  }
+  .skills {
+    margin-right: 60px;
   }
   .trusted {
     padding: 5%;
@@ -514,7 +548,7 @@ footer img {
     font-size: 8px;
   }
   .trusted {
-    margin-top: 0%;
+    margin-top: 10%;
     margin-bottom: 0%;
     height: auto;
   }
@@ -532,6 +566,10 @@ footer img {
   }
   .trusted p {
     font-size: 14px;
+  }
+  #trustedImg p {
+    margin-top: 15px;
+    margin-left: 0px;
   }
   .trusted img {
     width: 100%;
@@ -654,6 +692,7 @@ footer img {
     margin-bottom: 10%;
   }
   #title {
+    line-height: 26px;
     margin: 3% 0;
     font-size: 20px;
   }
@@ -667,8 +706,13 @@ footer img {
     margin: 0%;
   }
   .skills {
-    margin: 0%;
+    margin: 0% auto;
+    flex-direction: column;
     text-align: center;
+    margin-bottom: 10%;
+  }
+  .skills div {
+    width: 100%;
   }
   .skills p {
     font-size: 8px;
@@ -699,6 +743,7 @@ footer img {
   .imgproject p {
     font-size: 22px;
     margin-bottom: 5%;
+    line-height: 26px;
   }
   .imgproject img {
     max-width: 100%;
@@ -764,5 +809,8 @@ footer img {
   footer img {
     margin-bottom: 10%;
     width: 100%;
+  }
+  #contacts {
+    width: 90%;
   }
 }

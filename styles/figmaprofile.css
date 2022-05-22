@@ -62,6 +62,10 @@ nav a {
   width: fit-content;
 }
 .profile__about__line__name {
+  color: #3730a3;
+  display: inline-block;
+}
+.profile__about__line__name {
   font-size: 20px;
   font-weight: 500;
 }
@@ -125,11 +129,7 @@ nav a {
   margin-top: 19px;
 }
 
-#name {
-  color: #3730a3;
-  display: inline-block;
-}
-#title {
+.title {
   font-weight: 600;
   line-height: 50px;
   margin-top: 150px;
@@ -138,7 +138,7 @@ nav a {
   margin-bottom: 147px;
   margin-top: 192px;
 }
-#title span {
+.title__text_colorpurple {
   color: #3730a3;
 }
 .specification {
@@ -150,45 +150,37 @@ nav a {
   margin-right: 2%;
   margin-left: 133px;
 }
-.skills {
+.specification__skills {
   display: flex;
   margin-right: 292px;
   margin-top: 31px;
   margin-left: 15px;
   flex-wrap: wrap;
 }
-.skills div {
+.specification__skills div {
   font-size: 14px;
   width: 50%;
   max-height: min-content;
 }
-.skills a {
+.specification__skills__links {
   font-size: 12px;
   text-decoration: none;
   color: #3730a3;
   font-weight: 500;
 }
-.skills div p {
+.specification__skills div p {
   font-size: 18px;
   font-weight: 600;
 }
-.skills div span p {
+.specification__skills div span p {
   font-size: 12px;
   color: #6b7280;
   margin-top: 24px;
   font-weight: 400;
   margin-bottom: 20px;
 }
-#branding,
-#d3 {
-  margin-top: 10px;
-}
-#photography,
-#video {
-  margin-top: 12px;
-}
 
-.trusted {
+.trustedblock {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -200,46 +192,41 @@ nav a {
   font-size: 20px;
   height: 300px;
 }
-#trustedImg {
+.trustedblock__img {
   width: 67%;
 }
-#trustedImg p {
+.trustedblock__img p {
   margin-top: 0px;
   margin-left: 51px;
 }
-#imgrow {
+.trustedblock__img_row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-#imgrow div {
-  width: 57%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-#imgrow img {
+
+.trustedblock__img_row img {
   max-width: 100%;
 }
-.imgproject p {
+.imgproject__text {
   margin-bottom: 147px;
   text-align: center;
   font-size: 48px;
   font-weight: 600;
   line-height: 52px;
 }
-#photos {
+.imgproject__photos {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-#row {
+.imgproject__photos_row {
   margin-bottom: 30px;
   display: flex;
   flex-direction: row;
 }
-#column {
+.imgproject__photos_column {
   margin-right: 30px;
   justify-content: space-between;
   display: flex;

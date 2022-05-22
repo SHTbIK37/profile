@@ -10,28 +10,27 @@ body {
 header {
   font-size: 18px;
 }
-nav {
+.navigation {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
   margin-top: 118px;
   margin-right: 128px;
 }
-nav a {
+.links {
   color: #6b7280;
-
   text-decoration: none;
 }
-#serv {
+.navigation__serv {
   margin-right: 81px;
 }
-#works {
+.navigation__works {
   margin-right: 83px;
 }
-#blog {
+.navigation__blog {
   margin-right: 79px;
 }
-#hire {
+.navigation__hire {
   margin-right: -15px;
   position: relative;
   color: #3730a3;
@@ -40,7 +39,7 @@ nav a {
   border: 1px solid #3730a3;
   transition: all 0.2s;
 }
-#hire:hover {
+.navigation__hire:hover {
   background-color: #3730a3;
   color: white;
 }

@@ -232,7 +232,12 @@ nav a {
   display: flex;
   flex-direction: column;
 }
-#projectlink {
+
+.imgproject__photos_link {
+  display: flex;
+  position: relative;
+}
+.imgproject__photos_link__text {
   display: flex;
   height: 92px;
   width: 495px;
@@ -241,40 +246,37 @@ nav a {
   position: absolute;
   background-color: white;
 }
-.imgproject #projectlink p {
+.imgproject__photos_link__text p {
   font-size: 18px;
   text-align: start;
   margin-left: 30px;
   margin-top: 25px;
 }
-.imgproject #projectlink p span {
+.imgproject__photos_link__text p span {
   font-size: 14px;
   color: #9ca3af;
 }
-#projectlink img {
+.imgproject__photos_link__text p {
+  line-height: 20px;
+  font-weight: 400;
+}
+.imgproject__photos_link__text img {
   display: flex;
   align-items: center;
   position: absolute;
   display: inline-block;
   right: 30px;
 }
-#projectlink p {
-  line-height: 20px;
-  font-weight: 400;
-}
-#prlinkimg {
+.imgproject__photos_link__text__link {
   display: flex;
   align-items: center;
 }
-#prlinkimg a {
+.imgproject__photos_link__text__link a {
   display: flex;
   align-items: center;
 }
-#imgunder {
-  display: flex;
-  position: relative;
-}
-#planning {
+
+.planning {
   margin: 0 328px;
   margin-top: 150px;
   justify-content: space-between;
@@ -283,10 +285,10 @@ nav a {
   flex-direction: row;
   font-weight: 600;
 }
-#planning p {
+.planning__block__text_bold {
   font-size: 30px;
 }
-#planning p span {
+.planning__block__text {
   display: block;
   font-weight: 400;
   margin-top: 24px;
@@ -294,7 +296,7 @@ nav a {
   color: #9ca3af;
   line-height: 26px;
 }
-#planning img {
+.planning__block__img {
   margin-bottom: 5px;
 }
 #careers {

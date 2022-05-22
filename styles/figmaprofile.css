@@ -6,23 +6,16 @@ body {
   font-family: "Inter", sans-serif;
   align-items: center;
 }
-.aside {
-  margin: 0 auto;
-  background-color: white;
-  width: 80%;
-  display: block;
-  border: 1px solid white;
-}
-#profile {
-  display: flex;
-  margin-top: 200px;
-  justify-content: space-between;
-}
-#profile img {
-  margin-right: 100px;
-}
+
 header {
   font-size: 18px;
+}
+nav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 118px;
+  margin-right: 128px;
 }
 nav a {
   color: #6b7280;
@@ -47,30 +40,58 @@ nav a {
   border: 1px solid #3730a3;
   transition: all 0.2s;
 }
-
 #hire:hover {
   background-color: #3730a3;
   color: white;
 }
-#line {
+.profile {
+  display: flex;
+  margin-top: 200px;
+  justify-content: space-between;
+}
+.profile__profileimage__img {
+  margin-right: 100px;
+}
+.profile__about {
+  margin-left: 130px;
+}
+
+.profile__about__line {
   align-items: center;
   display: flex;
   width: fit-content;
 }
-#line p {
+.profile__about__line__name {
   font-size: 20px;
   font-weight: 500;
 }
-#line hr {
+.profile__about__line hr {
   margin-right: 10px;
-
   display: inline-block;
   width: 100px;
 }
-#logoLinks {
+.profile__about {
+  color: #6b7280;
+  font-size: 18px;
+}
+.profile__about__logo {
+  color: #1f2937;
+  position: relative;
+  font-style: normal;
+  line-height: 72px;
+  font-size: 72px;
+  margin-top: 22px;
+  font-weight: 700;
+}
+.profile__about__logotext {
+  margin-top: -30px;
+  line-height: 27px;
+}
+
+.profile__about__logoLinks {
   margin-top: 56px;
 }
-#logohire {
+.profile__about__logoLinks__hire {
   font-size: 18px;
   font-weight: 400;
   background-color: #3730a3;
@@ -82,7 +103,7 @@ nav a {
   border: 1px solid #3730a3;
   transition: all 0.2s;
 }
-#logoReadMore {
+.profile__about__logoLinks__readMore {
   font-size: 18px;
   font-weight: 400;
   background-color: white;
@@ -94,42 +115,16 @@ nav a {
   border: 1px solid #3730a3;
   transition: all 0.2s;
 }
-#underLogo {
+.profile__about__underLogo {
   margin-top: 35px;
   max-width: 100%;
 }
-#smallText {
+.profile__about__text_smallText {
   font-size: 12px;
   margin-left: -1px;
   margin-top: 19px;
 }
-nav {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  margin-top: 118px;
-  margin-right: 128px;
-}
-.about {
-  margin-left: 130px;
-}
-.about p {
-  color: #6b7280;
-  font-size: 18px;
-}
-#logo {
-  color: #1f2937;
-  position: relative;
-  font-style: normal;
-  line-height: 72px;
-  font-size: 72px;
-  margin-top: 22px;
-  font-weight: 700;
-}
-#logotext {
-  margin-top: -30px;
-  line-height: 27px;
-}
+
 #name {
   color: #3730a3;
   display: inline-block;

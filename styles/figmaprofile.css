@@ -298,45 +298,42 @@ header {
 .planning__block__img {
   margin-bottom: 5px;
 }
-#careers {
+.careers {
   margin-top: 115px;
 }
-#careers p {
+.careers__logo {
   font-weight: 600;
   text-align: center;
   font-size: 48px;
 }
-#careers div {
+.careers div {
   display: flex;
   justify-content: space-between;
 
   margin-top: 58px;
   margin-left: 152px;
 }
-#company,
-#position,
-#year {
-  display: inline-block;
+.careers__company,
+.careers__position,
+.careers__year {
   flex-direction: column;
 }
-#company p,
-#position p,
-#year p {
+.careers__text {
   margin: 30px;
   text-align: left;
   font-size: 16px;
   color: #6b7280;
   margin-bottom: 54px;
 }
-#company p span,
-#position p span,
-#year p span {
+.careers__company p span,
+.careers__position p span,
+.careers__year p span {
   font-weight: 600;
 }
-#position {
+.careers__position {
   margin-right: -18px;
 }
-#year {
+.careers__year {
   margin-right: 433px;
 }
 footer {
@@ -347,14 +344,14 @@ footer {
   justify-content: center;
   align-items: center;
 }
-footer p {
+.footer__text {
   text-align: center;
   font-size: 48px;
   margin-bottom: 20px;
   font-weight: 500;
   margin-top: 104px;
 }
-footer span {
+.footer__span {
   text-align: center;
   font-size: 18px;
   color: #9ca3af;
@@ -364,7 +361,7 @@ footer span {
 footer img {
   margin-bottom: 100px;
 }
-#contacts {
+.footer__contacts {
   display: flex;
   height: 100px;
   width: 60%;
@@ -372,7 +369,7 @@ footer img {
   margin-top: 53px;
   margin-bottom: 45px;
 }
-#contacts a {
+.footer__contacts a {
   height: 35px;
 }
 @media only screen and (min-width: 769px) and (max-width: 1280px) {
@@ -383,28 +380,35 @@ footer img {
     margin: 0;
     margin-top: 5%;
   }
-  #profile {
+  .navigation {
+    margin-top: 5%;
+    margin-right: 2%;
+  }
+  .profile {
     margin: 0;
     margin-top: 10%;
+  }
+  .profile__about {
+    margin-left: 2%;
   }
   .about {
     margin: 0;
     margin-right: 2%;
   }
-  #logo {
+  .profile__about__logo {
     line-height: 60px;
     margin: 0;
     font-size: 60px;
     margin-bottom: 7%;
   }
-  #name {
+  .profile__about__line__name {
     margin: 0;
   }
-  #profile img {
+  .profile img {
     margin: 0;
     max-width: 100%;
   }
-  #title {
+  .title {
     margin: 0 2%;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -414,6 +418,12 @@ footer img {
     margin: 0;
     margin-bottom: 2%;
   }
+  .specification img {
+    margin-left: 2%;
+  }
+  .specification__skills {
+    margin-right: 0;
+  }
   .skills {
     margin-right: 60px;
   }
@@ -422,31 +432,28 @@ footer img {
     margin: 0;
     height: 150px;
   }
-  #imgrow {
+  .trustedblock__img_row {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
   }
-  #imgrow div {
+  .trustedblock__img_row {
     width: fit-content;
   }
-  #imgrow img {
+  .trustedblock__img_row img {
     width: fit-content;
     margin: 5px;
   }
   .trusted img {
     max-width: 100%;
   }
-  #photos img {
+  .imgproject__photos img {
     max-width: 100%;
   }
-  #projectlink {
+  .imgproject__photos_link__text {
     max-width: 85%;
   }
-  #projectlink {
-    display: flex;
-    align-items: center;
-  }
+
   #prlinkimg {
     display: flex;
     align-items: center;
@@ -458,11 +465,11 @@ footer img {
   .imgproject #projectlink p {
     margin-top: 10px;
   }
-  #planning {
+  .planning {
     margin: 0 5%;
     margin-top: 5%;
   }
-  #careers div {
+  .careers div {
     margin: 0 5%;
   }
 }
@@ -471,52 +478,49 @@ footer img {
     margin: 0 2%;
     background-color: white;
   }
-  header {
+  .navigation {
     margin: 0;
   }
-  nav {
-    margin: 0;
+
+  .navigation__blog,
+  .navigation__hire,
+  .navigation__serv,
+  .navigation__works {
+    margin: 2%;
   }
-  #serv,
-  #works,
-  #blog,
-  #hire {
-    margin: 3%;
-  }
-  #hire {
+  .navigation__hire {
     padding: 1%;
   }
-  #profile {
+  .profile {
     flex-direction: column;
     margin-top: 2%;
   }
-  #profile img {
+  .profile img {
     display: block;
     margin: 0 auto;
     width: 100%;
     max-width: max-content;
   }
-  .about {
-    margin-left: 1%;
+  .profile__about {
+    margin-left: 2%;
   }
-  .about p {
-    text-align: center;
-    font-size: 14px;
-  }
-  #logo {
-    text-align: center;
-    line-height: 20px;
+  .profile__about__logo {
+    line-height: 22px;
     margin: 0%;
-    font-size: 18px;
+    font-size: 24px;
     margin-bottom: 7%;
   }
-  #title {
+  .title {
     margin: 3% 0;
     font-size: 20px;
+    line-height: 30px;
   }
   .specification {
     margin: 0%;
     flex-direction: column;
+  }
+  .specification__skills {
+    margin-right: 0;
   }
   .specification img {
     object-fit: cover;
@@ -535,73 +539,51 @@ footer img {
     margin-bottom: 0%;
     height: auto;
   }
-  #imgrow {
+  .trustedblock__img_row {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
   }
-  #imgrow div {
-    width: fit-content;
-  }
-  #imgrow img {
-    width: fit-content;
-    margin: 5px;
-  }
   .trusted p {
     font-size: 14px;
-  }
-  #trustedImg p {
-    margin-top: 15px;
-    margin-left: 0px;
   }
   .trusted img {
     width: 100%;
   }
-  .imgproject p {
+  .imgproject__text {
     font-size: 30px;
     margin-bottom: 5%;
   }
   .imgproject img {
     max-width: 100%;
   }
-  #projectlink {
+  .imgproject__photos_link__text {
     max-width: 80%;
     height: auto;
-  }
-  .imgproject #projectlink p {
-    margin: 3%;
-  }
-  #projectlink img {
-    right: 0;
-  }
-  #row {
-    margin-bottom: 2%;
-  }
-  #column {
-    margin-right: 2%;
-  }
-  #planning {
-    margin: 0%;
-    margin-top: 2%;
-  }
-  #planning img {
-    width: 90%;
-  }
-  #planning p {
     font-size: 18px;
   }
-  #planning p span {
+  .imgproject__photos_link__text p {
+    margin-left: 1%;
+  }
+  .imgproject__photos_link__text img {
+    right: 0;
+  }
+  .planning {
+    margin: 0%;
+    margin-top: 5%;
+  }
+  .planning img {
+    width: 90%;
+  }
+  .planning p {
+    font-size: 18px;
+  }
+  .planning p span {
     font-size: 12px;
   }
-  #careers div {
+  .careers div {
     margin: 0%;
     margin-right: 1%;
-  }
-
-  #company p,
-  #position p,
-  #year p {
-    margin: 5%;
   }
   footer {
     margin-top: 5%;
@@ -625,56 +607,54 @@ footer img {
     margin: 0 2%;
     background-color: white;
   }
-  header {
+  .navigation {
     font-size: 16px;
     margin: 0;
   }
-  nav {
-    margin: 0;
+
+  .navigation__blog,
+  .navigation__hire,
+  .navigation__serv,
+  .navigation__works {
+    margin: 2%;
   }
-  #serv,
-  #works,
-  #blog,
-  #hire {
-    margin: 3%;
-  }
-  #hire {
+  .navigation__hire {
     padding: 1%;
   }
-  #profile {
+  .profile {
     flex-direction: column;
     margin-top: 2%;
   }
-  #profile img {
+  .profile img {
     display: block;
     margin: 0 auto;
     width: 100%;
     max-width: 350px;
   }
-  #logoLinks {
+  .profile__about__logoLinks {
     display: flex;
     flex-direction: column;
   }
-  #logohire {
+  .profile__about__logoLinks__hire {
     width: fit-content;
     margin-bottom: 5%;
   }
-  #logoReadMore {
+  .profile__about__logoLinks__readMore {
     width: fit-content;
   }
-  .about {
+  .profile__about {
     margin-left: 1%;
   }
   .about p {
     font-size: 14px;
   }
-  #logo {
+  .profile__about__logo {
     line-height: 20px;
     margin: 0%;
     font-size: 18px;
     margin-bottom: 10%;
   }
-  #title {
+  .title {
     line-height: 26px;
     margin: 3% 0;
     font-size: 20px;
@@ -688,35 +668,30 @@ footer img {
     height: 250px;
     margin: 0%;
   }
-  .skills {
+  .specification__skills {
     margin: 0% auto;
     flex-direction: column;
     text-align: center;
     margin-bottom: 10%;
   }
-  .skills div {
+  .specification__skills div {
     width: 100%;
   }
-  .skills p {
+  .specification__skills p {
     font-size: 8px;
   }
-  .trusted {
-    margin-top: 0%;
-    margin-bottom: 0%;
-    height: auto;
+  .trustedblock {
+    margin-top: 0;
+    margin-bottom: 50px;
   }
-  #imgrow {
+  .trustedblock__img_row {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-  }
-  #imgrow div {
-    width: fit-content;
-  }
-  #imgrow img {
     width: fit-content;
     margin: 5px;
   }
+
   .trusted p {
     font-size: 18px;
   }
@@ -731,52 +706,46 @@ footer img {
   .imgproject img {
     max-width: 100%;
   }
-  #projectlink {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    max-width: 90%;
-    left: 5%;
+  .imgproject__photos_row {
+    margin-bottom: 15px;
   }
-  #projectlink img {
-    display: none;
+  .imgproject__photos_column {
+    margin-right: 15px;
   }
-  .imgproject #projectlink p {
-    font-size: 10px;
-    margin: 0;
+  .imgproject__photos_link__text {
+    display: flex;
+    height: fit-content;
+    width: 200px;
+    bottom: 24px;
+    left: 13px;
+    position: absolute;
+    background-color: white;
   }
-  .imgproject #projectlink p span {
-    font-size: 8px;
+  .imgproject__photos_link__text p {
+    margin-top: 1%;
+    margin-left: 0;
   }
-  #row {
-    margin-bottom: 2%;
+  .imgproject__photos_link__text img {
+    right: 0;
   }
-  #column {
-    margin-right: 2%;
-  }
-  #planning {
+  .planning {
     margin: 0%;
     margin-top: 2%;
   }
-  #planning img {
+  .planning img {
     width: 90%;
   }
-  #planning p {
+  .planning p {
     font-size: 18px;
   }
-  #planning p span {
+  .planning p span {
     font-size: 12px;
   }
-  #careers div {
+  .careers div {
     margin: 0%;
     margin-right: 1%;
   }
 
-  #company p,
-  #position p,
-  #year p {
-    margin: 5%;
-  }
   footer {
     margin-top: 5%;
   }
@@ -793,7 +762,7 @@ footer img {
     margin-bottom: 10%;
     width: 100%;
   }
-  #contacts {
+  .contacts {
     width: 90%;
   }
 }

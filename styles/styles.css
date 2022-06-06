@@ -454,16 +454,8 @@ footer img {
     max-width: 85%;
   }
 
-  #prlinkimg {
-    display: flex;
-    align-items: center;
-  }
-
   .imgproject p {
     margin-bottom: 0;
-  }
-  .imgproject #projectlink p {
-    margin-top: 10px;
   }
   .planning {
     margin: 0 5%;

@@ -171,7 +171,7 @@ header {
   font-size: 18px;
   font-weight: 600;
 }
-.specification__skills div span p {
+.specification__skills div span {
   font-size: 12px;
   color: #6b7280;
   margin-top: 24px;

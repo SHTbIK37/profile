@@ -34,7 +34,7 @@ header {
   margin-right: -15px;
   position: relative;
   color: #3730a3;
-  padding: 13px 32px 13px 32px;
+  padding: 13px 32px;
   border-radius: 6px;
   border: 1px solid #3730a3;
   transition: all 0.2s;
@@ -276,8 +276,7 @@ header {
 }
 
 .planning {
-  margin: 0 328px;
-  margin-top: 150px;
+  margin: 150px 328px 0;
   justify-content: space-between;
   text-align: center;
   display: flex;
@@ -594,7 +593,7 @@ footer img {
     width: 100%;
   }
 }
-@media only screen and (min-width: 250px) and (max-width: 550px) {
+@media only screen and (max-width: 550px) {
   body {
     margin: 0 2%;
     background-color: white;

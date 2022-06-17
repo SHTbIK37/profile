@@ -189,24 +189,29 @@ header {
   background-color: #fef2f2;
   color: #9ca3af;
   font-size: 20px;
-  height: 300px;
-}
-.trustedblock__img {
-  width: 67%;
-}
-.trustedblock__img p {
-  margin-top: 0px;
-  margin-left: 51px;
-}
-.trustedblock__img_row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
 
-.trustedblock__img_row img {
-  max-width: 100%;
+.trustedblock__img p {
+  margin-top: 0px;
 }
+.trustedblock__img_row {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img {
+  max-width: 44%;
+  margin: 10px;
+}
+.trustedblock__img_row_marginleft_false {
+  margin-left: 0px;
+}
+.trustedblock__img_row_marginright_false {
+  margin-right: 0px;
+}
+
 .imgproject__text {
   margin-bottom: 147px;
   text-align: center;
@@ -283,6 +288,7 @@ header {
   flex-direction: row;
   font-weight: 600;
 }
+
 .planning__block__text_bold {
   font-size: 30px;
 }
@@ -371,6 +377,11 @@ footer img {
 .footer__contacts a {
   height: 35px;
 }
+@media only screen and (min-width: 1280px) {
+  .trustedblock {
+    height: 300px;
+  }
+}
 @media only screen and (min-width: 769px) and (max-width: 1280px) {
   body {
     margin: 0 2%;
@@ -426,10 +437,8 @@ footer img {
   .skills {
     margin-right: 60px;
   }
-  .trusted {
-    padding: 5%;
-    margin: 0;
-    height: 150px;
+  .trustedblock {
+    height: 300px;
   }
   .trustedblock__img_row {
     flex-direction: row;
@@ -438,10 +447,10 @@ footer img {
   }
   .trustedblock__img_row {
     width: fit-content;
+    justify-content: center;
   }
   .trustedblock__img_row img {
     width: fit-content;
-    margin: 5px;
   }
   .trusted img {
     max-width: 100%;
@@ -534,6 +543,7 @@ footer img {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .trusted p {
     font-size: 14px;
@@ -675,9 +685,13 @@ footer img {
     margin-top: 0;
     margin-bottom: 50px;
   }
+  .trustedblock__img {
+    padding: 20px;
+  }
   .trustedblock__img_row {
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     width: fit-content;
     margin: 5px;
@@ -688,6 +702,9 @@ footer img {
   }
   .trusted img {
     width: 100%;
+  }
+  .img {
+    width: 105px;
   }
   .imgproject p {
     font-size: 22px;
@@ -740,7 +757,10 @@ footer img {
     margin-right: 1%;
   }
   .careers__text {
-    margin: 0;
+    margin: 3%;
+  }
+  #careers__year_margintop {
+    margin-top: 2px;
   }
   footer {
     margin-top: 5%;
